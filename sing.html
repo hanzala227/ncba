@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .singin-container{
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .singin-content{ 
+            width: 400px;
+            background-color: rgb(255, 255, 255);
+            height: 500px;
+            border-radius: 2px;
+            text-align: center;
+        }
+        .sn{
+           background-color: rgb(255, 255, 255);
+        }
+        .singin-content img{
+            width: 80px;
+            height: 80px;
+        }
+.singin-content h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6rem;
+}
+.singin-content p{
+    font-size: 1rem;
+}
+.singin-content p a{
+    color: black
+    ;
+    text-decoration: underline;
+}
+.singin-content input{
+    width: 300px;
+    height: 40px;
+    border:  1.5px solid rgb(59, 59, 59);
+    outline:none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.singin-content .a{
+    margin-left: -180px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+.singin-button{
+
+    width: 300px;
+    height: 40px;
+    background-color: black;
+border-radius: 5px ;
+color: white;
+outline: none
+;
+border: 2px solid black;
+font-size: 1.1em;
+transition: .2s;
+cursor: pointer;
+}
+.singin-button:hover{
+
+width: 300px;
+height: 40px;
+background-color: rgba(0, 0, 0, 0.87);
+border-radius: 5px ;
+color: white;
+font-size: 1.1em;
+}
+@media (max-width:380px) {
+ .singin-content  h3{
+    font-size: 1.3rem;
+   
+}
+    
+}
+    </style>
+</head>
+<body>
+    <nav class="sn">
+      
+        <img class="imlogo" src="logo1-removebg-preview.png"  alt="">
+          <a href="index.html"><span>NCBA NEWS</span></a>
+   
+      </nav>
+    <div class="singin-container">
+        <div class="singin-content">
+        <img src="logo1-removebg-preview.png" alt="">
+        <h3>Sing-In to your NCBA account</h3>
+        <br>
+        <p>Don't have an account? <a href="singup.html">Sing-up</a></p>
+        <br>
+        <input type="email" placeholder="Email-address" required>
+        <br><br>
+        <input type="password" placeholder="Password" required>
+        <br><br>
+        <a class="a" href="">Forget Password?</a>
+        <br><br>
+        <button class="singin-button">Sing-In</button>
+    </div>
+
+    </div>
+</body>
+</html>
